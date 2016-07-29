@@ -1,0 +1,13 @@
+* Documentation based issue management
+
+/An invitation and initiation into the hassle free issue management./
+
+Traditional bug tracking is separate service and loosely coupled with project, its source code and documentation. In active project with lots of users and developers, the issue database can be enormous making it hard and laborious to find whether a bug is reported or not and prioritise existing issues.
+
+Documentation based issue management means that commits changing documentation are itself reported issues. Some commits are just notes saying that behaviour of a system and its documentation do not match (traditional bug that was not found in development and verification). Others are additions and modifications indicating that system behaviour/interface/etc. should be altered to produce more value to users.
+
+There are plenty of practical issues to solve. For example, how conversation concerning an issue is organised so that documentation is not scattered. There can be separate file for discussions or there can be literate programming style master document and actual documentation (and even source code) is produced by tangling it.
+
+The overall goal is that a separate issue management system is not needed anymore and all project related material is in a single simple branched git repository. An other consequence is that documentation and its marginal notes is road map to reported issues and their current state.
+
+This project is for introducing the idea, developing it further, and sharing using experience.

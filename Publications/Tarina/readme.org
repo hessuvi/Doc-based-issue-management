@@ -1,0 +1,8 @@
+
+* Documentation based issue management
+
+** Publications
+
+*** The initial story (in Finnish)
+
+A manuscript for Laatu ja testaus magazine.
